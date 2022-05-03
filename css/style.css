@@ -1,0 +1,162 @@
+body {
+  background-color: rgba(29, 19, 19, 0.836);
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*logo*/
+.logopanda {
+  width: 150px;
+  height: 150px;
+}
+
+/**********NAV***********/
+.nav-item {
+  padding: 10px;
+}
+
+.nav-link:hover {
+  background-color: rgba(43, 12, 12, 0.493);
+}
+
+/*****MAIN*****/
+.main-menu {
+  margin-top: 20px;
+}
+
+.main-promo {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+/*****CARRUSEL*****/
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-item img {
+  height: 400px;
+}
+
+/*****UBICACION*****/
+.ubicacion {
+  margin-top: 5px;
+  color: azure;
+}
+
+.ubicacion1 {
+  font-size: 20px;
+  color: rgba(7, 255, 255, 0.493);
+  padding-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 0%;
+}
+
+.mapa {
+  margin-top: 10px;
+}
+
+/*formulario socio/cliente*/
+form {
+  margin-top: 20px;
+}
+
+.formulario {
+  margin-top: 20px;
+}
+
+.formulario__1 {
+  text-align: center;
+  font-family: serif;
+  font-size: 25px;
+  color: black;
+}
+
+.formulario__1:hover {
+  background-color: rgba(68, 144, 214, 0.664);
+}
+
+/*QUIENES SOMOS?*/
+/*quienes somos*/
+.quienes-somos {
+  font-size: 30px;
+}
+
+.separador__1 {
+  padding-left: 30px;
+  margin: auto;
+}
+
+.qs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: burlywood;
+}
+
+.quienes {
+  color: white;
+  text-align: center;
+}
+
+.quienes__1 {
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-family: initial;
+  background-color: rgba(165, 42, 42, 0.473);
+}
+
+.quienes__1:hover {
+  color: #d4d3ff;
+}
+
+.cocina {
+  font-size: 20px;
+  color: rgba(7, 255, 255, 0.493);
+}
+
+/*******FOOTER******/
+footer {
+  margin-top: 10px;
+}
+
+footer ul {
+  margin: 0%;
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 560px;
+  -webkit-box-pack: 70px space-between;
+      -ms-flex-pack: 70px space-between;
+          justify-content: 70px space-between;
+}
+
+footer .ani_footer {
+  color: #3b3bbd;
+}
+
+footer .ani_footer1 {
+  color: #d61faf;
+}
+
+footer .ani_footer2 {
+  color: #269739;
+}
+
+footer .ani_footer:hover {
+  color: rgba(54, 54, 216, 0.849);
+}
+
+footer .ani_footer1:hover {
+  color: rgba(228, 51, 228, 0.973);
+}
+
+footer .ani_footer2:hover {
+  color: rgba(22, 187, 96, 0.863);
+}
+/*# sourceMappingURL=style.css.map */
