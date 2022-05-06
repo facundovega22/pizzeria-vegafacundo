@@ -15,7 +15,7 @@ body {
 }
 
 .nav-link:hover {
-  background-color: rgba(44, 12, 12, 0.493);
+  background-color: rgba(43, 12, 12, 0.493);
 }
 
 /*****MAIN*****/
@@ -111,7 +111,7 @@ form {
 }
 
 .quienes__1:hover {
-  color: #c8c8f1;
+  color: #d4d3ff;
 }
 
 .cocina {
@@ -140,23 +140,23 @@ footer .ani_footer {
   color: #3b3bbd;
 }
 
-footer .ani_footer1 {
+footer .ani_footer2 {
   color: #d61faf;
 }
 
-footer .ani_footer2 {
+footer .ani_footer3 {
   color: #269739;
 }
 
-footer .ani_footer:hover {
-  color: rgba(50, 50, 211, 0.849);
-}
-
 footer .ani_footer1:hover {
-  color: rgba(218, 49, 218, 0.973);
+  color: rgba(54, 54, 216, 0.849);
 }
 
 footer .ani_footer2:hover {
-  color: rgba(27, 185, 98, 0.863);
+  color: rgba(228, 51, 228, 0.973);
+}
+
+footer .ani_footer3:hover {
+  color: rgba(22, 187, 96, 0.863);
 }
 /*# sourceMappingURL=style.css.map */
