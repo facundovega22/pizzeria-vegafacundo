@@ -78,7 +78,16 @@ form {
 /*QUIENES SOMOS?*/
 /*quienes somos*/
 .quienes-somos {
+  color: red;
+  border: 3px solid black;
+  background-color: white;
   font-size: 30px;
+}
+
+.quienes-somos:hover {
+  color: white;
+  background-color: black;
+  border: 3px solid red;
 }
 
 .separador__1 {
