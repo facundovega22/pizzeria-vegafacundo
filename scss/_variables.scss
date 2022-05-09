@@ -1,3 +1,15 @@
+$separador__1:(
+    padding-left: 30px ,
+    margen: auto ,
+    color: rgb(173, 30, 5),
+    );
+@mixin propiedadesPrincipales ($bg-color, $width, $heigth) {
+        background-color: $bg-color;
+        width: $width;
+        height: $heigth;
+}
+
+
 body{background-color: rgba(29, 19, 19, 0.836);
     font-family: 'Bebas Neue', cursive;}
 

@@ -90,11 +90,6 @@ form {
   border: 3px solid red;
 }
 
-.separador__1 {
-  padding-left: 30px;
-  margin: auto;
-}
-
 .qs {
   display: -webkit-box;
   display: -ms-flexbox;
