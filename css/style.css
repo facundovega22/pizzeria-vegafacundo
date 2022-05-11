@@ -9,13 +9,61 @@ body {
   height: 150px;
 }
 
+body {
+  background-color: rgba(29, 19, 19, 0.836);
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*logo*/
+.logopanda {
+  width: 150px;
+  height: 150px;
+}
+
+.boton, .boton-nombre, .boton-apellido, .boton-telefono, .boton-email, .boton-texto {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.boton-nombre {
+  background-color: white;
+  width: 300px;
+  height: auto;
+}
+
+.boton-apellido {
+  background-color: white;
+  width: 300px;
+  height: auto;
+}
+
+.boton-telefono {
+  background-color: white;
+  width: 300px;
+  height: auto;
+}
+
+.boton-email {
+  background-color: white;
+  width: 300px;
+  height: auto;
+}
+
+.boton-texto {
+  background-color: white;
+  width: 100%;
+  height: 130px;
+  margin-top: 10px;
+}
+
 /**********NAV***********/
 .nav-item {
   padding: 10px;
 }
 
 .nav-link:hover {
-  background-color: rgba(44, 12, 12, 0.493);
+  background-color: rgba(43, 12, 12, 0.493);
 }
 
 /*****MAIN*****/
@@ -111,7 +159,7 @@ form {
 }
 
 .quienes__1:hover {
-  color: #c8c8f1;
+  color: #d4d3ff;
 }
 
 .cocina {
@@ -149,14 +197,14 @@ footer .ani_footer2 {
 }
 
 footer .ani_footer:hover {
-  color: rgba(50, 50, 211, 0.849);
+  color: rgba(54, 54, 216, 0.849);
 }
 
 footer .ani_footer1:hover {
-  color: rgba(218, 49, 218, 0.973);
+  color: rgba(228, 51, 228, 0.973);
 }
 
 footer .ani_footer2:hover {
-  color: rgba(27, 185, 98, 0.863);
+  color: rgba(22, 187, 96, 0.863);
 }
 /*# sourceMappingURL=style.css.map */

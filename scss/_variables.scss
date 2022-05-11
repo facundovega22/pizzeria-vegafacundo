@@ -1,3 +1,16 @@
+$boton:( 
+fondo: rgb(0, 0, 0),
+color: rgb(255, 255, 255),
+radio: 4px ,
+
+);
+@mixin propiedadesPrincipales ($bg-color, $width, $heigth) {
+        background-color: $bg-color;
+        width: $width;
+        height: $heigth;
+}
+
+
 body{background-color: rgba(29, 19, 19, 0.836);
     font-family: 'Bebas Neue', cursive;}
 
