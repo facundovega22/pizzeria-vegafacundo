@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 $separador__1:(
     padding-left: 30px ,
     margen: auto ,
     color: rgb(173, 30, 5),
     );
+=======
+$boton:( 
+fondo: rgb(0, 0, 0),
+color: rgb(255, 255, 255),
+radio: 4px ,
+
+);
+>>>>>>> animaciones
 @mixin propiedadesPrincipales ($bg-color, $width, $heigth) {
         background-color: $bg-color;
         width: $width;

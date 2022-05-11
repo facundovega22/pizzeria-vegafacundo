@@ -1,0 +1,27 @@
+@import "variables";
+
+.boton{
+    background-color: map-get($boton ,fondo);
+    color: map-get($boton , color );
+    border-radius: map-get($boton ,radio  );
+
+}
+.boton-nombre{
+    @extend .boton;
+    @include propiedadesPrincipales( rgb(255, 255, 255),300px ,auto );
+}.boton-apellido{
+    @extend .boton;
+    @include propiedadesPrincipales( rgb(255, 255, 255),300px ,auto );
+}
+.boton-telefono{
+   @extend .boton;
+    @include propiedadesPrincipales( rgb(255, 255, 255),300px ,auto );
+}.boton-email{
+    @extend .boton;
+    @include propiedadesPrincipales( rgb(255, 255, 255),300px ,auto );
+}.boton-texto{
+    @extend .boton;
+    @include propiedadesPrincipales( rgb(255, 255, 255),100%,130px );
+    margin-top: 10px;
+    
+}
