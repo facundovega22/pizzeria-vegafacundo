@@ -36,6 +36,7 @@ body {
   background-color: white;
   width: 300px;
   height: auto;
+  color: white;
 }
 
 .boton-telefono {
@@ -54,6 +55,7 @@ body {
   background-color: white;
   width: 100%;
   height: 130px;
+  color: white;
   margin-top: 10px;
 }
 
@@ -200,7 +202,6 @@ footer .ani_footer3 {
   color: #269739;
 }
 
-<<<<<<< HEAD
 footer .ani_footer1:hover {
   color: rgba(54, 54, 216, 0.849);
 }
@@ -210,17 +211,30 @@ footer .ani_footer2:hover {
 }
 
 footer .ani_footer3:hover {
-=======
-footer .ani_footer:hover {
-  color: rgba(54, 54, 216, 0.849);
-}
-
-footer .ani_footer1:hover {
-  color: rgba(228, 51, 228, 0.973);
-}
-
-footer .ani_footer2:hover {
->>>>>>> animaciones
   color: rgba(22, 187, 96, 0.863);
+}
+
+body {
+  background-color: rgba(29, 19, 19, 0.836);
+  font-family: 'Bebas Neue', cursive;
+}
+
+/*logo*/
+.logopanda {
+  width: 150px;
+  height: 150px;
+}
+
+
+.boton, .boton-nombre, .boton-apellido, .boton-telefono, .boton-email, .boton-texto {
+  background-color: black;
+  width: 300px;
+  height: auto;
+}
+
+.boton_1 {
+  background-color: black;
+  width: 300px;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
