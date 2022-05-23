@@ -7,17 +7,14 @@ body {
 .logopanda {
   width: 150px;
   height: 150px;
+  margin-top: 0%;
+padding-left: 0%;
+
 }
 
 body {
   background-color: rgba(29, 19, 19, 0.836);
   font-family: 'Bebas Neue', cursive;
-}
-
-/*logo*/
-.logopanda {
-  width: 150px;
-  height: 150px;
 }
 
 .boton, .boton-nombre, .boton-apellido, .boton-telefono, .boton-email, .boton-texto {
@@ -96,13 +93,12 @@ body {
 .ubicacion1 {
   font-size: 20px;
   color: rgba(7, 255, 255, 0.493);
-  padding-left: 100px;
-  margin-top: 30px;
-  margin-bottom: 0%;
+  margin-top: 26px;
+  
 }
 
 .mapa {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 /*formulario socio/cliente*/
@@ -219,13 +215,6 @@ body {
   font-family: 'Bebas Neue', cursive;
 }
 
-/*logo*/
-.logopanda {
-  width: 150px;
-  height: 150px;
-}
-
-
 .boton, .boton-nombre, .boton-apellido, .boton-telefono, .boton-email, .boton-texto {
   background-color: black;
   width: 300px;
@@ -236,5 +225,8 @@ body {
   background-color: black;
   width: 300px;
   height: auto;
+}
+.separador__1{
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
